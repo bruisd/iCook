@@ -5,6 +5,7 @@ node_modules/
 
 # Expo
 .expo/
+.expo-shared/
 dist/
 web-build/
 expo-env.d.ts
@@ -32,6 +33,7 @@ yarn-error.*
 
 # local env files
 .env*.local
+.env
 
 # typescript
 *.tsbuildinfo
@@ -39,3 +41,21 @@ yarn-error.*
 # generated native folders
 /ios
 /android
+
+# Firebase
+.firebase/
+firebase-debug.log
+firestore-debug.log
+ui-debug.log
+
+# IDE
+.vscode/
+.idea/
+*.swp
+*.swo
+*~
+
+# Note: For security, you may want to add your config files with secrets
+# Uncomment these lines if you want to keep your API keys private:
+# src/config/firebase.ts
+# src/config/api.ts
